@@ -19,6 +19,7 @@ The module creates the following architecture:
 - **VPC**: A single VPC spanning multiple availability zones.
 - **Public Subnets**: Subnets with a route to the Internet Gateway for public-facing resources.
 - **Private Subnets**: Subnets with a route to the NAT Gateway for private resources that need internet access.
+- **Database Subnets and Database Subnet Group**: Subnets with a route to the NAT Gateway for database resources that need internet access.
 - **Internet Gateway (IGW)**: Enables internet access for public subnets.
 - **NAT Gateway (NGW)**: Allows private subnets to access the internet while keeping resources private.
 
